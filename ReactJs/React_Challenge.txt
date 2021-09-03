@@ -1,0 +1,15 @@
+Problem:
+-----------
+
+Build a React application for github users search and profile details
+
+Duration : 4hr 
+
+2 Pages:
+-----------
+1. List page => list all github users. With Search field
+2. User detail Screen. Click on list redirect to user detail screen. display his profile information and image
+
+Search API (eg) : https://api.github.com/search/users?q=mahesh  ( q=<search term> ) => This need to be used on list screen. display all loginname based on search result
+Detail API (eg : https://api.github.com/users/mahesh ( mahesh => login name ) => This need to be used on detail screen
+

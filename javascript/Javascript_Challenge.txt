@@ -1,0 +1,50 @@
+Problem:
+---------
+Combine following 2 Array to output Array format.  
+
+Hint:  Considering first row as header, first convert both array to seperate object array
+	   Then merge object array using id column. 
+	   
+Duration : 1 hr
+
+
+var arr1 = [
+	["id","name","sex"]
+	["1","John","M"]
+	["2","Boby","M"]
+	["3","Doe","M"]
+]
+
+var arr2 = [
+	["id","age"]
+	["1","15"]
+	["2","22"]
+	["3","33"]
+]
+
+
+Expected Output Array
+----------------------
+[
+	{
+	  "id": "1",
+	  "name": "John",
+	  "sex": "M",
+	  "age": "15",
+	},
+	
+	{
+	  "id": "2",
+	  "name": "Boby",
+	  "sex": "M",
+  	  "age": "22",
+
+	},	
+	{
+	  "id": "3",
+	  "name": "Doe",
+	  "sex": "M",
+	  "age": "33",
+
+	}
+]
